@@ -8,10 +8,12 @@ morse_code = {
     '6': '-....', '7': '--...', '8': '---..', '9': '----.', '0': '-----'
 }
 
+
 def text_to_morse_code():
     task_type = input('What do you want to do? (encode/decode): ').lower()
-    message = input('Enter you message here. Cannot use special characters: ').lower()
-    output = []
+    if task_type == 'encode' or task_type == 'decode':
+        message = input('Enter you message here. Cannot use special characters: ').lower()
+        output = []
     if task_type == 'encode':
         for c in message:
             if c in morse_code:
@@ -64,3 +66,4 @@ while keep_converting:
     else:
         print('No comprehendable input entered.')
         keep_converting = False
+
