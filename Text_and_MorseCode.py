@@ -9,17 +9,17 @@ morse_code = {
 }
 
 def text_to_morse_code():
-    global morse_code
     task_type = input('What do you want to do? (encode/decode): ').lower()
-    message = input('Enter you message here. ').lower()
+    message = input('Enter you message here. Cannot use special characters: ').lower()
     output = []
     if task_type == 'encode':
         for c in message:
             if c in morse_code:
                 output.append(morse_code[c])
             else:
-                output.append(c)
+                output.append(" ")
         print(" ".join(output))
+        return
 
     elif task_type == 'decode':
         message_array = []
@@ -46,6 +46,11 @@ def text_to_morse_code():
                     output.append(" ")
                     break
         print("".join(output))
+        return
+
+    else:
+        print('Wrong input recieved')
+        return
 
         
 keep_converting = True
