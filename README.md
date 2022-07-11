@@ -1,3 +1,9 @@
+<style>
+  p{
+    text-align: justify;
+  }
+</style>
+
 <h1> Morse Code Converter </h1>
 <p> This simple scripting program written in python. It converts english message to morse code and vice-versa. </p>
 
