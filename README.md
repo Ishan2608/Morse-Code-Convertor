@@ -1,6 +1,10 @@
 <h1> Morse Code Converter </h1>
 <p> This simple scripting program written in python. It converts english message to morse code and vice-versa. </p>
 
+<div>
+  <img src = "./Morse_Code_Converter.JPG" alt="Code Output">
+</div>
+
 <h1> Step 1: Create a Dictionary of Morse Codes </h1>
 <p>
   Create a global variable, which is a dictionary. The key:value pair is 'letter':'morse code' and 'digit':'morse code'. 
