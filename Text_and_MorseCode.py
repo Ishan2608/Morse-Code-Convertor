@@ -62,8 +62,9 @@ while keep_converting:
         text_to_morse_code()
     elif user_wish == 'n' or user_wish == 'no':
         keep_converting = False
-        pass
+        break
     else:
         print('No comprehendable input entered.')
         keep_converting = False
+        break
 
