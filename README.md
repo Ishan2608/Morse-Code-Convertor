@@ -2,7 +2,7 @@
 <p> This simple scripting program written in python. It converts english message to morse code and vice-versa. </p>
 
 <div>
-  <img src = "./Morse_Code_Converter.JPG" alt="Code Output">
+  <img src = "./Morse_Coder_Converter.JPG" alt="Code Output">
 </div>
 
 <h1> Step 1: Create a Dictionary of Morse Codes </h1>
