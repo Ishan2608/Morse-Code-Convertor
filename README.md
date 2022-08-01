@@ -8,7 +8,7 @@
 <hr>
 
   <div>
-    <img src = "./Morse Code Converter Flowchart.png" alt="Code Flowchart">
+    <img src = "./Morse Code Converter Flowchart.png" alt="Program Flowchart">
   </div>
 
 <hr>
