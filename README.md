@@ -13,32 +13,34 @@
 
 <hr>
 
-<h1> Step 1: Create a Dictionary of Morse Codes </h1>
+<h1> Guide to Build this Project </h1>
+
+<h2> Step 1: Create a Dictionary of Morse Codes </h2>
 <p>
   Create a global variable, which is a dictionary. The key:value pair is 'letter':'morse code' and 'digit':'morse code'. 
   We will use it to convert english letters and digits to their morse code equivalents and morse codes to their english letter or digit equivalents.
 </p>
 
-<h1> Step 2: Ask User for Input </h1>
+<h2> Step 2: Ask User for Input </h2>
 <p>
   Now, define the function logic. Start by asking user what he wants to do? 'Encrypt' a message or 'Decrypt' a message. Then ask user to input the message.
   Do this using input function with <string>.lower() method to convert message to lower case to be able to compare against the dictionary's keys.
 </p>
 
-<h1> Step 3: Divding the features of the Function </h1>
+<h2> Step 3: Divding the features of the Function </h2>
 <p> 
   Our function has tow features. First, it can encrypt a message, second, it can decrypt a message. These are divided using if-elif-else statements.
   One block to handle encoding, other to handle decoding, and last one to handle invalid user choice.
 </p>
 
-<h1> Step 4: Encryption Logic </h1>
+<h2> Step 4: Encryption Logic </h2>
 <p> 
   Iterate over user string, append each character to a list if it is not a key in the morse_code dictionary. 
   If the character is a key in that dictionary, append the value of that key.
   Output a string using " ".join(output)
 </p>
 
-<h1> Step 5: Decryption Logic </h1>
+<h2> Step 5: Decryption Logic </h2>
 <p> 
   Iterate over user string. Append each character to a string, <b> word </b>, if the character is not a blank space, i.e., " ". 
   If it is, append the word to message_array list, then empty the word back to empty string, since the presence of a blank space signifies the start of a new word.
