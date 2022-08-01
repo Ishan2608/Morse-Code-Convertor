@@ -23,7 +23,7 @@
   Do this using input function with <string>.lower() method to convert message to lower case to be able to compare against the dictionary's keys.
 </p>
 
-<h1> Step 4: Diving the features of the Function </h1>
+<h1> Step 4: Divding the features of the Function </h1>
 <p> 
   Our function has tow features. First, it can encrypt a message, second, it can decrypt a message. These are divided using if-elif-else statements.
   One block to handle encoding, other to handle decoding, and last one to handle invalid user choice.
