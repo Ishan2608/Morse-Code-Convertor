@@ -5,6 +5,14 @@
   <img src = "./Morse_Coder_Converter.JPG" alt="Code Output">
 </div>
 
+<hr>
+
+  <div>
+    <img src = "./Morse Code Converter Flowchart.png" alt="Code Flowchart">
+  </div>
+
+<hr>
+
 <h1> Step 1: Create a Dictionary of Morse Codes </h1>
 <p>
   Create a global variable, which is a dictionary. The key:value pair is 'letter':'morse code' and 'digit':'morse code'. 
@@ -40,3 +48,5 @@
   We iterate over the message_array list, append the key from morse code dictionary for that value in morse code dictionary. 
   Append blank space if we detect blank space.
 </p>
+
+<hr>
