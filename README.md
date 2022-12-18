@@ -2,13 +2,13 @@
 <p> This simple scripting program written in python. It converts english message to morse code and vice-versa. </p>
 
 <div>
-  <img src = "./Morse_Coder_Converter.JPG" alt="Code Output">
+  <img src="Morse_Coder_Converter.JPG" alt="Code Output">
 </div>
 
 <hr>
   <h1> Program Flowchart </h1>
   <div>
-    <img src = "./Morse Code Converter Flowchart.png" alt="Program Flowchart">
+    <img src="Morse Code Converter Flowchart.png" alt="Program Flowchart">
   </div>
 
 <hr>
