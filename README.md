@@ -1,54 +1,35 @@
-<h1> Morse Code Converter </h1>
-<p> This simple scripting program written in python. It converts english message to morse code and vice-versa. </p>
+# Morse Code Converter
 
-<div>
-  <img src="Morse_Coder_Converter.JPG" alt="Code Output">
-</div>
+Welcome to the Morse Code Converter! This GitHub repository hosts an intermediate-level project that enables you to easily convert text messages between English and Morse code. With this converter, you can quickly translate messages to and from Morse code, making communication more versatile and intriguing.
 
-<hr>
-  <h1> Program Flowchart </h1>
-  <div>
-    <img src="Morse Code Converter Flowchart.png" alt="Program Flowchart">
-  </div>
+## Overview
 
-<hr>
+The Morse Code Converter is a simple yet powerful Python application that allows users to encode English text messages into Morse code or decode Morse code back into English. This handy tool brings Morse code to life by providing a seamless conversion experience, making it accessible to anyone interested in learning or using this classic communication method.
 
-<h1> Guide to Build this Project </h1>
+## Technologies Used
 
-<h2> Step 1: Create a Dictionary of Morse Codes </h2>
-<p>
-  Create a global variable, which is a dictionary. The key:value pair is 'letter':'morse code' and 'digit':'morse code'. 
-  We will use it to convert english letters and digits to their morse code equivalents and morse codes to their english letter or digit equivalents.
-</p>
+The Morse Code Converter project harnesses the following technology:
 
-<h2> Step 2: Ask User for Input </h2>
-<p>
-  Now, define the function logic. Start by asking user what he wants to do? 'Encrypt' a message or 'Decrypt' a message. Then ask user to input the message.
-  Do this using input function with <string>.lower() method to convert message to lower case to be able to compare against the dictionary's keys.
-</p>
+- **Python:** The core language that powers the converter's logic and handles the conversion process.
 
-<h2> Step 3: Divding the features of the Function </h2>
-<p> 
-  Our function has tow features. First, it can encrypt a message, second, it can decrypt a message. These are divided using if-elif-else statements.
-  One block to handle encoding, other to handle decoding, and last one to handle invalid user choice.
-</p>
+## How It Works
 
-<h2> Step 4: Encryption Logic </h2>
-<p> 
-  Iterate over user string, append each character to a list if it is not a key in the morse_code dictionary. 
-  If the character is a key in that dictionary, append the value of that key.
-  Output a string using " ".join(output)
-</p>
+To use the Morse Code Converter:
 
-<h2> Step 5: Decryption Logic </h2>
-<p> 
-  Iterate over user string. Append each character to a string, <b> word </b>, if the character is not a blank space, i.e., " ". 
-  If it is, append the word to message_array list, then empty the word back to empty string, since the presence of a blank space signifies the start of a new word.
-  We cannot do this for every blank space as the output of encrypted mesage, which we copy has 3 blanks between words, so we also need to check for that.
-  If we are at a blank space and next is also a blank space, we don't append. We also check if previous character was not a blank space, if it wasn't, then we append.
-  If we have reached the last character, we again append the word. <br>
-  We iterate over the message_array list, append the key from morse code dictionary for that value in morse code dictionary. 
-  Append blank space if we detect blank space.
-</p>
+1. Clone this repository to your local machine.
 
-<hr>
+2. Ensure you have Python installed on your system.
+
+3. Run the `morse_code_converter.py` script in your preferred Python environment.
+
+4. The converter will prompt you to select whether you want to encode or decode a message.
+
+5. If you choose "Encode," enter a simple text message. The converter will generate its Morse code equivalent.
+
+6. If you choose "Decode," enter the Morse code message. The converter will translate it back into English.
+
+7. Enjoy the convenience of seamless English-to-Morse and Morse-to-English conversions!
+
+## Contribution
+
+We welcome contributions from intermediate-level developers interested in improving and expanding the Morse Code Converter. Whether you have ideas for enhancing the conversion process, handling special characters, or implementing additional features, your contributions are highly valued. Please feel free to raise issues and submit pull requests to contribute to the project's growth.
